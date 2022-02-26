@@ -44,7 +44,8 @@ Instructions updated and now you're able to run VPN on GCP without any difficult
 
 ###On Client(Keenetic OS):
 1. On keenetic folder Internet - Other connections - Create connection
-2. Fill fields in a menu with EXTERNAL_IP and VPN user's credentials
+2. Fill fields in a menu with EXTERNAL_IP and VPN user's credentials. Use L2TP protocol to connection.
+Set flag on **Use for accessing the Internet**! ![Keenetic OS menu](https://raw.github.com/IKiselevii/install-vpn-server-on-gcp/master/img/keenetic_network_setup.png)
 
 -----
 

@@ -19,7 +19,7 @@ PRIVATE_IP=YourInstanceInternalIP
 PUBLIC_IP=YourInstanceExternalIP
 
 # start with the basic and install openswan
-apt-get install -y openswan=1:2.6.37-3 xl2tpd
+apt-get install -y xl2tpd
 
 cat > /etc/ipsec.conf <<EOF
 version 2.0
@@ -87,11 +87,9 @@ ms-dns 8.8.8.8
 ms-dns 8.8.4.4
 noccp
 auth
-crtscts
 idle 1800
 mtu 1280
 mru 1280
-lock
 connect-delay 5000
 EOF
 
