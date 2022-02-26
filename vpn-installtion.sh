@@ -1,7 +1,7 @@
 #!/bin/sh
 #
-# Automatic configuration of a VPN on GCE debian-7-wheezy server. 
-# Tested only on debian-7-wheezy.
+# Automatic configuration of a VPN on GCE debian-9-stretch server.
+# Tested only on debian-9-stretch.
 #
 # This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 
 # Unported License: http://creativecommons.org/licenses/by-sa/3.0/
