@@ -32,6 +32,7 @@ config setup
   protostack=netkey
   nhelpers=0
   interfaces=%defaultroute
+  sha2-truncbug=no
 
 conn vpnpsk
   auto=add
@@ -53,6 +54,7 @@ conn vpnpsk
   dpddelay=30
   dpdtimeout=120
   dpdaction=clear
+  sha256_96=yes
 EOF
 
 cat > /etc/ipsec.secrets <<EOF
