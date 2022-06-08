@@ -23,9 +23,10 @@ Instructions updated and now you're able to run VPN on GCP without any difficult
 
 ###On Server:
 
-1. After you launch an instance, download <code>vpn-installtion.sh</code> into that instance.
-2. Update the **TODO** (<code>IPSEC_PSK</code>, <code>VPN_USER</code>, <code>VPN_PASSWORD</code>, <code>PRIVATE_IP</code>, <code>PUBLIC_IP</code>)
-3. run <code>
+1. Install strongswan, you have do it manually - <code>apt-get install strongswan</code>
+2. After you launch an instance, download <code>vpn-installtion.sh</code> into that instance.
+3. Update the **TODO** (<code>IPSEC_PSK</code>, <code>VPN_USER</code>, <code>VPN_PASSWORD</code>, <code>PRIVATE_IP</code>, <code>PUBLIC_IP</code>)
+4. run <code>
 	sudo sh vpn-installtion.sh
 </code>
 4. Setup the network.
